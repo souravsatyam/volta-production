@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "33fd64e871bee3c2d442"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "50fac38217e8fd2271d3"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -34969,10 +34969,20 @@
 	  function SideBar(props) {
 	    _classCallCheck(this, SideBar);
 
-	    return _possibleConstructorReturn(this, (SideBar.__proto__ || Object.getPrototypeOf(SideBar)).call(this));
+	    var _this = _possibleConstructorReturn(this, (SideBar.__proto__ || Object.getPrototypeOf(SideBar)).call(this));
+
+	    _this.state = { active_url: '' };
+	    return _this;
 	  }
 
 	  _createClass(SideBar, [{
+	    key: 'componentWillMount',
+	    value: function componentWillMount() {
+	      var arr = window.location.href.split('/');
+	      var active_url = arr[arr.length - 1];
+	      this.setState({ active_url: active_url });
+	    }
+	  }, {
 	    key: 'toggleSidebar',
 	    value: function toggleSidebar() {
 	      if (typeof this.props.onClick === 'function') {
@@ -34998,7 +35008,7 @@
 	      var menuList = this.props.sidebarReducer.menus.map(function (e, i) {
 	        return _react2.default.createElement(
 	          'li',
-	          { key: i, className: [_sidebar2.default.sidebarDropdown, e.active ? _sidebar2.default.active : ''].join(' ') },
+	          { key: i, className: [_sidebar2.default.sidebarDropdown, e.active || e.link == '/' + _this2.state.active_url ? _sidebar2.default.active : ''].join(' ') },
 	          _react2.default.createElement(
 	            _reactRouterDom.Link,
 	            { to: e.link, onClick: function onClick() {
@@ -75665,7 +75675,7 @@
 	                        { className: 'container-fluid' },
 	                        _react2.default.createElement(
 	                            _core.Typography,
-	                            { variant: 'h4' },
+	                            { variant: 'h5' },
 	                            'Model List'
 	                        ),
 	                        _react2.default.createElement(
@@ -75900,7 +75910,7 @@
 	var initialState = {
 	  menus: [{
 	    name: 'Device List',
-	    active: true,
+	    active: false,
 	    icons: 'fas fa-laptop',
 	    link: '/device-list',
 	    submenu: []
