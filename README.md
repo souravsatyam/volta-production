@@ -1,11 +1,11 @@
-** Clone the existing repo **
+**Clone the existing repo**
 
 git clone https://github.com/souravsatyam/volta-production.git
 
-** Copy the content of cloned repo in empty express project
+**Copy the content of cloned repo in empty express project**
 
 
-** Modify routes of index routes of empty express project
+**Modify routes of index routes of empty express project**
 
   ```  var express = require('express');
     var router = express.Router();
