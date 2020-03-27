@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "5fddad3cb9e725808d22"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "33fd64e871bee3c2d442"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -75901,19 +75901,19 @@
 	  menus: [{
 	    name: 'Device List',
 	    active: true,
-	    icons: 'fas fa-bars',
+	    icons: 'fas fa-laptop',
 	    link: '/device-list',
 	    submenu: []
 	  }, {
 	    name: 'Model List',
 	    active: false,
-	    icons: 'fas fa-bars',
+	    icons: 'fas fa-laptop',
 	    link: '/model-list',
 	    submenu: []
 	  }, {
 	    name: 'User List',
 	    active: false,
-	    icons: 'fas fa-bars',
+	    icons: 'fas fa-user',
 	    link: '/user-list',
 	    submenu: []
 	  }]
