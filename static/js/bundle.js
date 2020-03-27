@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "8fa450ff74ea67a8a03c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "470973ed305b0830318c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -34992,6 +34992,11 @@
 	  }, {
 	    key: 'logOut',
 	    value: function logOut() {
+	      this.props.sidebarReducer.menus.map(function (e, i) {
+	        if (e.active) {
+	          e.active = false;
+	        }
+	      });
 	      localStorage.removeItem('access_token');
 	    }
 	  }, {
@@ -58511,7 +58516,6 @@
 	function AddDeviceModal(props) {
 	  var _this = this;
 
-	  console.log("Props recieved for open", props);
 	  var classes = useStyles();
 
 	  var _React$useState = _react2.default.useState(false),
@@ -58696,7 +58700,7 @@
 	                props.devices && props.devices.map(function (e) {
 	                  return _react2.default.createElement(
 	                    _MenuItem2.default,
-	                    { value: e.deviceId },
+	                    { key: e.deviceId, value: e.deviceId },
 	                    e.deviceId
 	                  );
 	                })
@@ -75839,7 +75843,7 @@
 
 	        return _react2.default.createElement(
 	          _Grid2.default,
-	          { item: true, xs: 3 },
+	          { item: true, xs: 3, key: model_item },
 	          _react2.default.createElement(
 	            _Paper2.default,
 	            { className: classes.paper },
