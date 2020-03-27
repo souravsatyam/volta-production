@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "50fac38217e8fd2271d3"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8fa450ff74ea67a8a03c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -10898,7 +10898,7 @@
 	        value: function loadDevice() {
 	            var _this3 = this;
 
-	            (0, _axios2.default)({ method: 'get', url: '/admin/deviceprofile/list' }).then(function (resp) {
+	            _axios2.default.get('/admin/deviceprofile/list').then(function (resp) {
 	                _this3.setState({ deviceList: resp.data });
 	            }).catch(function (err) {
 	                if (err) {
@@ -57261,11 +57261,7 @@
 	        value: function loadUserList() {
 	            var _this3 = this;
 
-	            _axios2.default.get('http://54.162.17.115:3001/airpurifer/admin/consumeruser/list', {
-	                headers: {
-	                    'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEwMDAwMCwidXNlcm5hbWUiOiJhbHRpdXhpbmRpYSIsImZpcnN0TmFtZSI6IlBoYW5pIiwibGFzdE5hbWUiOiJLdW1hciIsImVtYWlsIjoiYWx0aXV4QGdtYWlsLmNvbSIsInBob25lTm8iOiIxMjM0NTY3ODkwIiwiY3JlYXRlZFRpbWUiOjE1ODUyMDUxNjI5MDB9.RD-eV2QZ7Sb5Cqbr9_67gEJ3ejQ0ZF065Cb3HaFyAWg'
-	                }
-	            }).then(function (resp) {
+	            _axios2.default.get('/airpurifer/admin/consumeruser/list').then(function (resp) {
 	                _this3.setState({ users: resp.data });
 	            }).catch(function (err) {});
 	        }
@@ -76080,6 +76076,10 @@
 
 	var _layout2 = _interopRequireDefault(_layout);
 
+	var _axios = __webpack_require__(/*! axios */ 129);
+
+	var _axios2 = _interopRequireDefault(_axios);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -76089,7 +76089,8 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	var axiosDefaults = __webpack_require__(/*! axios/lib/defaults */ 140);
-	axiosDefaults.baseURL = 'http://54.162.17.115:1971';
+	_axios2.default.defaults.baseURL = 'http://54.162.17.115:8900';
+	_axios2.default.defaults.headers.common['Authorization'] = localStorage.getItem('access_token');
 
 	var App = function (_Component) {
 	  _inherits(App, _Component);
