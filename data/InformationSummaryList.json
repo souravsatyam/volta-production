@@ -1,0 +1,59 @@
+{
+    "data": [{
+        "site_name": "ChitllaPakam",
+        "site_code": 1234,
+        "category": "ByPass Sensor",
+        "status": "off",
+        "comment": "Sensor showing normal state",
+        "time": "09-07-19 11:25"
+    },{
+        "site_name": "ChitllaPakam",
+        "site_code": 1234,
+        "category": "ByPass Sensor",
+        "status": "off",
+        "comment": "panic sensor showing normal",
+        "time": "09-07-19 11:06"
+    },{
+        "site_name": "Kopargaon",
+        "site_code": 1452,
+        "category": "ByPass Sensor",
+        "status": "on",
+        "comment": "Bypass due to alarm state",
+        "time": "09-07-19 17"
+    },{
+        "site_name": "Kharar",
+        "site_code": 1234,
+        "category": "ByPass Sensor",
+        "status": "off",
+        "comment": "Sensor showing normal state",
+        "time": "09-07-19 11:25"
+    }, {
+        "site_name": "Kharar",
+        "site_code": 1234,
+        "category": "ByPass Sensor",
+        "status": "off",
+        "comment": "Sensor showing normal state",
+        "time": "09-07-19 11:25"
+    }, {
+        "site_name": "Ferozpur City",
+        "site_code": 1234,
+        "category": "ByPass Sensor",
+        "status": "off",
+        "comment": "Sensor showing normal state",
+        "time": "09-07-19 11:25"
+    }, {
+        "site_name": "Ghoti Bhurduk",
+        "site_code": 1234,
+        "category": "ByPass Sensor",
+        "status": "off",
+        "comment": "Sensor showing normal state",
+        "time": "09-07-19 11:25"
+    }, {
+        "site_name": "Untwadi Nasik",
+        "site_code": 1234,
+        "category": "ByPass Sensor",
+        "status": "off",
+        "comment": "Sensor showing normal state",
+        "time": "09-07-19 11:25"
+    }]
+}

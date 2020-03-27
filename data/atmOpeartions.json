@@ -1,0 +1,6 @@
+{
+    "name": "ATM Operations",
+    "current_status": false,
+    "relay_status": true,
+    "reset_router": "auto"
+}

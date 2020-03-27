@@ -1,0 +1,51 @@
+{
+    "data": [{
+        "user_name": "abhijeet",
+        "device_id": "Vikroli West",
+        "channel_id": 27673,
+        "changed_value": "on",
+        "remote_ip": "181.152.152.3",
+        "date": "08-07-2019 18:42:16",
+        "status": "Parameter weite successfully"
+    }, {
+        "user_name": "admin",
+        "device_id": "Salkia",
+        "channel_id": 8291,
+        "changed_value": "1130",
+        "remote_ip": "181.152.152.3",
+        "date": "08-07-2019 18:42:16",
+        "status": "Parameter weite successfully"
+    },  {
+        "user_name": "admin",
+        "device_id": "Salkia",
+        "channel_id": 8291,
+        "changed_value": "1130",
+        "remote_ip": "181.152.152.3",
+        "date": "08-07-2019 18:42:16",
+        "status": "Parameter weite successfully"
+    },  {
+        "user_name": "admin",
+        "device_id": "Salkia",
+        "channel_id": 8291,
+        "changed_value": "1130",
+        "remote_ip": "181.152.152.3",
+        "date": "08-07-2019 18:42:16",
+        "status": "Parameter weite successfully"
+    },  {
+        "user_name": "admin",
+        "device_id": "Salkia",
+        "channel_id": 8291,
+        "changed_value": "1130",
+        "remote_ip": "181.152.152.3",
+        "date": "08-07-2019 18:42:16",
+        "status": "Parameter weite successfully"
+    },  {
+        "user_name": "admin",
+        "device_id": "Salkia",
+        "channel_id": 8291,
+        "changed_value": "1130",
+        "remote_ip": "181.152.152.3",
+        "date": "08-07-2019 18:42:16",
+        "status": "Parameter weite successfully"
+    }]
+}

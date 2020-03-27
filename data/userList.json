@@ -1,0 +1,39 @@
+{
+    "user_list": [{
+        "company": "ICICI Bank",
+        "branch_code": "123456",
+        "branch_name": "123",
+        "circle": "Maharastra",
+        "cluster": "Mumbai",
+        "dashboard_link": "fas fa-eye",
+        "detail_screen": "fas fa-eye"
+      },
+      {
+        "company": "Axis Bank",
+        "branch_code": "123456",
+        "branch_name": "123",
+        "circle": "Maharastra",
+        "cluster": "Mumbai",
+        "dashboard_link": "fas fa-eye",
+        "detail_screen": "fas fa-eye"
+      },
+      {
+        "company": "UCO Bank",
+        "branch_code": "123456",
+        "branch_name": "123",
+        "circle": "Maharastra",
+        "cluster": "Mumbai",
+        "dashboard_link": "fas fa-eye",
+        "detail_screen": "fas fa-eye"
+      }],
+
+      "columns" : [
+        { "id": "name", "numeric": false, "disablePadding": true, "label": "User Name" },
+        { "id": "calories", "numeric": true, "disablePadding": false, "label": "Email" },
+        { "id": "fat", "numeric": true, "disablePadding": false, "label": "First Name" },
+        { "id": "carbs", "numeric": true, "disablePadding": false, "label": "Last Name" },
+        { "id": "protein", "numeric": true, "disablePadding": false, "label": "Phone Number" }
+      ]
+
+      
+}

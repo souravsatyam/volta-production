@@ -1,0 +1,30 @@
+{
+    "rows": [{
+        "name": "Row1",
+        "check_box_removal": false,
+        "atm1_vibrartion_center": false,
+        "atm1_chest_door": false,
+        "shutter": false,
+        "strong_room": false,
+        "panel_open_door": false,
+        "panic": false,
+        "fire": false,
+        "early_open": false,
+        "hooter": false
+    },
+    {
+        "name": "Row2",
+        "check_box_removal": false,
+        "atm1_vibrartion_center": false,
+        "atm1_chest_door": false,
+        "shutter": false,
+        "strong_room": false,
+        "panel_open_door": false,
+        "panic": false,
+        "fire": false,
+        "early_open": false,
+        "hooter": true
+
+
+    }]
+}

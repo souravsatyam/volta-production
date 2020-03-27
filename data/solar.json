@@ -1,0 +1,12 @@
+{
+    "data": {
+        "no_of_invertor": 8,
+        "capacity": "32.00 KW",
+        "last_updated": "12/10/22 00:00:00",
+        "pvs_count": 2,
+        "cell_count": 1,
+        "corridor": [{"name": "1-corridor"},
+                    {"name": "2-corridor"}, 
+                    {"name": "3-corridor"}]
+    }
+}

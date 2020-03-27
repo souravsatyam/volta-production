@@ -1,0 +1,31 @@
+{
+    "parameter_list": [{
+        "name": "Edge1 IR1 (ON/OFF/FAN/COOL)",
+        "action": "View"
+    }, {
+        "name": "Edge1 IR1 Cutoff Timer (ENABLE/DISABLE)",
+        "action": "View"
+    }, {
+        "name": "Edge1 IR1 Fan Speed (1/3/5)",
+        "action": "View"
+    }, {
+        "name": "Edge1 IR1 Auto/Manual Status(Auto/Manual)",
+        "action": "View"
+    }, {
+        "name": "Edge1 IR1 AUTO/MANUAL Status(AUTO/MANUAL)",
+        "action": "View"
+    }, {
+        "name": "Edge1 IR1 Eco Mode status",
+        "action": "View"
+    }],
+    "columns" : [
+        {
+            "name": "Parameter Name",
+            "selector": "name",
+            "sortable": true
+    }, {
+        "name": "Action",
+        "selector": "action",
+        "sortable": true
+    }]
+}

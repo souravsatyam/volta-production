@@ -1,0 +1,36 @@
+{
+    "tickets": [{
+        "company_name": "ICICI Bank",
+        "ticket_id": "1234567",
+        "site_code": "1234",
+        "site_name": "Puliar",
+        "alert_message": "ATM checkbox faculty",
+        "opened_on": "12:02:1992 0:0:0",
+        "ticket_status": true,
+        "assigned_to": "None",
+        "last_assigned_on": "None",
+        "sr_status": "NA"
+    },{
+        "company_name": "Axis Bank",
+        "ticket_id": "1234567",
+        "site_code": "1234",
+        "site_name": "Puliar",
+        "alert_message": "ATM checkbox faculty",
+        "opened_on": "12:02:1992 0:0:0",
+        "ticket_status": true,
+        "assigned_to": "None",
+        "last_assigned_on": "None",
+        "sr_status": "NA"
+    },{
+        "company_name": "Test Bank",
+        "ticket_id": "1234567",
+        "site_code": "1234",
+        "site_name": "Puliar",
+        "alert_message": "ATM checkbox faculty",
+        "opened_on": "12:02:1992 0:0:0",
+        "ticket_status": true,
+        "assigned_to": "None",
+        "last_assigned_on": "None",
+        "sr_status": "NA"
+    }]
+}

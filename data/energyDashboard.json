@@ -1,0 +1,30 @@
+{
+    "energy_saved": {
+        "labels": ["02-07-2019", "03-07-2019", "04-07-2019", "05-07-2019", "06-07-2019", "07-07-2019", "08-07-2019"],
+            "datasets": [
+              {
+                "label": "Energy Saved",
+                "backgroundColor": "rgba(255,99,132,0.2)",
+                "borderColor": "rgba(255,99,132,1)",
+                "borderWidth": 1,
+                "hoverBackgroundColor": "rgba(255,99,132,0.4)",
+                "hoverBorderColor": "rgba(255,99,132,1)",
+                "data": [70, 60, 50, 40, 30, 20, 10, 0]
+              }
+        ]
+    },
+    "temprature_saved": {
+        "labels": ["02-07-2019", "03-07-2019", "04-07-2019", "05-07-2019", "06-07-2019", "07-07-2019", "08-07-2019"],
+            "datasets": [
+              {
+                "label": "Temprature Saved",
+                "backgroundColor": "transparent",
+                "borderColor": "rgba(255,99,132,1)",
+                "borderWidth": 1,
+                "hoverBackgroundColor": "rgba(255,99,132,0.4)",
+                "hoverBorderColor": "rgba(255,99,132,1)",
+                "data": [70, 60, 50, 40, 30, 20, 10, 0]
+              }
+        ]
+    }
+}

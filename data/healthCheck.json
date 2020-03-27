@@ -1,0 +1,32 @@
+{
+    "customer": [{
+        "name": "Sourav Satyam",
+        "customer_id": "CUST0001_TRA"
+    }],
+    "active_power": "3.06",
+    "apparent_power": "3.41",
+    "reactive_power": "1.40",
+    "power_factor": "0.91",
+    "active_energy": "44124.00",
+    "apparent_energy": "55609.00",
+    "reactive_energy": "28662.00",
+    "phase": [{
+        "phase": "Phase 1",
+        "line_voltage": "387.3",
+        "phase_voltage": "226.34",
+        "phase_current": "0.0"
+    },
+    {
+        "phase": "Phase 2",
+        "line_voltage": "393.25",
+        "phase_voltage": "224.22",
+        "phase_current": "9.08"
+    },
+    {
+        "phase": "Phase 3",
+        "line_voltage": "392.04",
+        "phase_voltage": "226.49",
+        "phase_current": "6.08"
+    }]
+   
+}
